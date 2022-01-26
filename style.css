@@ -8,8 +8,8 @@ html,body{
 
 .conteiner{
     
-
-    margin: 50px auto;
+    width: 1300px;
+    margin: 0px auto;
 }
 
 .blok1{
@@ -76,7 +76,7 @@ h2 {
 .text_parag{
     font-size: 18px;
     line-height: 27px;
-    width: 460px;
+    width: 50%;
     margin: 0 0 125px;
 }
 .image_man{
@@ -179,11 +179,9 @@ button {
 }
 @media only screen and (max-width: 480px) {
     .conteiner{
-         min-width: 730px;
+         max-width: 160vw;
          margin: -16px 0px;
-         display: block;
-         margin-left: 50px;
-        
+         overflow-x: hidden; 
     }
     .row{
         width: 100%;
