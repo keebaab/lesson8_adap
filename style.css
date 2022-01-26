@@ -1,0 +1,241 @@
+.clear{
+    clear: both;
+}
+html,body{
+    font-family: GT Super Display;
+    margin: auto;
+}
+
+.conteiner{
+    
+
+    margin: 50px auto;
+}
+
+.blok1{
+    background-color: green;
+}
+.row{
+    background-color:#023a15 !important 
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+h2 {
+    font-family: "GT Super Display";
+    font-size: 109px;
+    line-height: 110px;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+.text_free {
+    font-size: 12px;
+    line-height: 13px;
+    color: #ffffff;
+}
+.title_img {
+    position: relative;
+}
+.girl {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    z-index: 1;
+}
+.coffee{
+    position: absolute;
+    left: 30px;
+    right: 0%;
+    top: 30px;
+}
+.man{
+    position: absolute;
+    z-index: 1;
+    bottom: 385px;
+    left: 240px;
+}
+.tara{
+    position: absolute;
+    left: 50%;
+    right: 0%;
+    top: 45%;
+}
+.row2{
+    padding: 120px 70px 0;
+    margin-bottom: -70px;
+    background-color: white;
+}
+.title_text_2_blok{
+    font-size: 66px;
+    line-height: 84px;
+    color: #000;
+    margin: 0 0 30px;
+}
+.text_parag{
+    font-size: 18px;
+    line-height: 27px;
+    width: 460px;
+    margin: 0 0 125px;
+}
+.image_man{
+}
+.image_baby{
+    padding: 217px 0;
+}
+.box3{
+    text-align: center;
+    padding-top: 200px;
+    Height:800px;
+    margin: 0 auto;
+    background:#FFE6E2;
+}
+.conteiner_center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 59px;
+    line-height: 77px;
+    letter-spacing: 3px;
+    width: 49%;
+    color: #000000;
+}
+.center{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.box4{
+    padding-top: 200px;
+    margin: 0 auto;
+    background: white;
+}
+.con{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.conleft{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content_textcon{
+    width: 26%
+
+
+}
+.textcon1{
+    font-family: GT Super Display;
+    font-weight: 900;
+    font-size: 53px;
+    line-height: 72px;
+    color: #000000;
+}
+.textcon11{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+.row5{
+    padding-block-end: 2%;
+    margin: 0 auto;
+    background: #023A15;
+}
+.text_blokend{
+    font-family: GT Super Display;
+    font-weight: 900;
+    font-size: 106px;
+    line-height: 110px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+.blok_end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px 20%;
+
+}
+button {
+    padding: 10px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #023a15 !important;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+@media only screen and (max-width: 480px) {
+    .conteiner{
+         min-width: 730px;
+         margin: -16px 0px;
+         display: block;
+         margin-left: 50px;
+        
+    }
+    .row{
+        width: 100%;
+    }
+    .row1{
+        display: block;
+    }
+    button{
+        transform: scale(1.5);
+        margin-left: 70px;
+    }
+    .text_free{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .text_parag{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .image_baby{
+        display: block;
+        padding-left: 15%;
+    }
+    h1{
+        width: 60%;
+        font-size: 100px;
+    }
+    .center{
+        font-size: 29px;
+        width: 70%;
+        margin-bottom: 40px;
+    }
+    .niz{
+        display: inline-block;
+        height: 400px;
+    }
+    .box3{
+        height: 1200px;
+        padding-top: 10px;
+    }
+    .content_textcon{
+        width: 100%; 
+    }
+    .textcon1{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .textcon11{
+        font-size: 30px;
+        line-height: 23px;
+    }
+    .box4{
+    }
+
+}
